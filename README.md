@@ -1,1 +1,1 @@
-# jothin-kumar.github.io
+This is a personal website.

@@ -1,3 +1,8 @@
-# Since this website is not completed, no robots should crawl it.
+User-agent: Googlebot
+Disallow: 
+
+User-agent: Googlebot-Image
+Disallow: 
+
 User-agent: *
 Disallow: /

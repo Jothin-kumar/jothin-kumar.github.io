@@ -7,11 +7,8 @@ Disallow:
 User-agent: *
 Disallow: /
 
-User-agent: Bingbot
-Disallow: 
-
-User-agent: BingPreview
-Disallow: 
+User-agent: bingbot
+Allow: /
 
 
 Sitemap: https://jothin-kumar.github.io/sitemap.xml

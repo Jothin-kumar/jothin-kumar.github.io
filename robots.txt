@@ -8,10 +8,10 @@ User-agent: *
 Disallow: /
 
 User-agent: Bingbot
-Disallow: /
+Disallow: 
 
 User-agent: BingPreview
-Disallow: /
+Disallow: 
 
 
 Sitemap: https://jothin-kumar.github.io/sitemap.xml

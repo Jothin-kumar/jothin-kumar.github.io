@@ -1,14 +1,18 @@
 User-agent: Googlebot
+Allow: /
 Disallow: 
 
 User-agent: Googlebot-Image
+Allow: /
 Disallow: 
 
 User-agent: *
+Allow: 
 Disallow: /
 
 User-agent: bingbot
 Allow: /
+Disallow: 
 
 
 Sitemap: https://jothin-kumar.github.io/sitemap.xml

@@ -1,5 +1,5 @@
 # B. Jothin kumar
-# Hi threre👋
+# Hi there👋
 **I am B. Jothin kumar, a school student and programming hobbyist from India. I am good at Python.**
 I have completed Hacktoberfest! you can [view my badge @ dev.to](https://dev.to/jothinkumar).  
 Email me: [bjothinphysics@gmail.com](mailto:bjothinphysics@gmail.com)  

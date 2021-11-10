@@ -10,20 +10,20 @@ DM me on Discord: @jothin-kumar#1075
 ## My projects
 I ❤️ opensource softwares! I've been doing some with the hope that someone will find it useful :-)
 Here are some of them:
- - Geometry-app
- - Lines-of-code
- - Time-widget
-### Geometry app
+ - [Geometry-app](/Geometry-app)
+ - [Lines-of-code](/lines-of-code)
+ - [Time-widget](/time-widget)
+### [Geometry app](/Geometry-app)
 This is my favourite project! as the name denotes, I've been creating a GUI application to solve Geometrical problems! here is a preview of it:
 ![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-1.png?raw=true)
 ![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-2.png?raw=true)
 You can find my Geometry-app on Github: [https://github.com/jothin-kumar/geometry-app](https://github.com/jothin-kumar/geometry-app)
 To report bug or feature request: [https://github.com/Jothin-kumar/Geometry-app/issues/new/choose](https://github.com/Jothin-kumar/Geometry-app/issues/new/choose)
-### Lines-of-code
+### [Lines-of-code](/lines-of-code)
 So, have you ever wondered how many lines of code you wrote! 🤔 This tool will answer your question for sure! The GUI will be done after adding more features! for now, you can use the terminal. It is good too!
 You can find my lines-of-code on Github: [https://github.com/Jothin-kumar/lines-of-code](https://github.com/Jothin-kumar/lines-of-code)
 To report bug or feature request: [https://github.com/Jothin-kumar/lines-of-code/issues/new/choose](https://github.com/Jothin-kumar/lines-of-code/issues/new/choose)
-### Time-widget
+### [Time-widget](/time-widget)
 Do you ever wanted to know what is the time now in your friend's country? Well, this tool will help you!  
 Preview:
 ![Screenshot](https://jothin-kumar.github.io/time-widget/screenshots/1.png)

@@ -4,9 +4,9 @@
 I have completed Hacktoberfest! you can [view my badge @ dev.to](https://dev.to/jothinkumar).  
 Email me: [bjothinphysics@gmail.com](mailto:bjothinphysics@gmail.com)  
 My Github profile: https://github.com/jothin-kumar  
-DM me on Discord: @jothin-kumar#1075
+DM me on Discord: @jothin-kumar#1075  
 ![Profile views](https://visitor-badge.glitch.me/badge?page_id=Jothin-kumar.Jothin-kumar.jothin-kumar.github.io)  
-![Github stats](https://github-readme-stats.vercel.app/api?username=Jothin-kumar&count_private=true&show_icons=true&theme=radical)
+![Github stats](https://github-readme-stats.vercel.app/api?username=Jothin-kumar&count_private=true&show_icons=true&theme=radical)  
 ![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jothin-kumar&theme=radical)  
 ![My streak](https://github-readme-streak-stats.herokuapp.com/?user=Jothin-kumar&theme=dark)
 ## My projects

@@ -10,7 +10,7 @@ DM me on Discord: @jothin-kumar#1075
 ![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jothin-kumar&theme=radical)  
 ![My streak](https://github-readme-streak-stats.herokuapp.com/?user=Jothin-kumar&theme=dark)
 ## My projects
-I ❤️ opensource softwares! I've been doing some with the hope that someone will find it useful :-)
+I ❤️ opensource softwares! I've been doing some with the hope that someone will find it useful :-) Please do show your support by starring it!
 Here are some of them:
  - [Geometry-app](/Geometry-app)
  - [Lines-of-code](/lines-of-code)

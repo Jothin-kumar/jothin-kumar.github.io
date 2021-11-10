@@ -33,7 +33,7 @@ Preview:
 ![Screenshot](https://jothin-kumar.github.io/time-widget/screenshots/3.png)
 ![Screenshot](https://jothin-kumar.github.io/time-widget/screenshots/4.png)
 ![Screenshot](https://jothin-kumar.github.io/time-widget/screenshots/5.png)
-Sorry windows users, it does not work properly on windows yet... I am working it. It works fine on Linux!
+Sorry windows users, it does not work properly on windows yet... I am working on it. It works fine on Linux!
 You can find my Time-widget on [Github](https://github.com/Jothin-kumar/time-widget)  
  - [Report bug or request new feature here](https://github.com/Jothin-kumar/time-widget/issues/new/choose)  
 

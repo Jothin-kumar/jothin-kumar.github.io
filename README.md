@@ -19,12 +19,12 @@ Here are some of them:
 This is my favourite project! as the name denotes, I've been creating a GUI application to solve Geometrical problems! here is a preview of it:
 ![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-1.png?raw=true)
 ![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-2.png?raw=true)
-You can find my Geometry-app on [Github](https://github.com/jothin-kumar/geometry-app)
-[To report bug or feature request](https://github.com/Jothin-kumar/Geometry-app/issues/new/choose)
+You can find my Geometry-app on [Github](https://github.com/jothin-kumar/geometry-app)  
+ - [Report bug or request new feature here](https://github.com/Jothin-kumar/Geometry-app/issues/new/choose)
 ### [Lines-of-code](/lines-of-code)
 So, have you ever wondered how many lines of code you wrote! 🤔 This tool will answer your question for sure! The GUI will be done after adding more features! for now, you can use the terminal. It is good too!
-You can find my lines-of-code on [Github](https://github.com/Jothin-kumar/lines-of-code)
-[To report bug or feature request](https://github.com/Jothin-kumar/lines-of-code/issues/new/choose)
+You can find my lines-of-code on [Github](https://github.com/Jothin-kumar/lines-of-code)  
+ - [Report bug or request new feature here](https://github.com/Jothin-kumar/lines-of-code/issues/new/choose)
 ### [Time-widget](/time-widget)
 Do you ever wanted to know what is the time now in your friend's country? Well, this tool will help you!  
 Preview:
@@ -34,6 +34,7 @@ Preview:
 ![Screenshot](https://jothin-kumar.github.io/time-widget/screenshots/4.png)
 ![Screenshot](https://jothin-kumar.github.io/time-widget/screenshots/5.png)
 Sorry windows users, it does not work properly on windows yet... I am working it. It works fine on Linux!
-You can find my Time-widget on [Github](https://github.com/Jothin-kumar/time-widget)
-[To report bug or feature request](https://github.com/Jothin-kumar/time-widget/issues/new/choose)
+You can find my Time-widget on [Github](https://github.com/Jothin-kumar/time-widget)  
+ - [Report bug or request new feature here](https://github.com/Jothin-kumar/time-widget/issues/new/choose)  
+
 **Happy coding!**

@@ -15,8 +15,8 @@ Here are some of them:
  - Time-widget
 ### Geometry app
 This is my favourite project! as the name denotes, I've been creating a GUI application to solve Geometrical problems! here is a preview of it:
-![Screenshot of Geometry app](https://jothin-kumar.github.io/Geometry-app//geometry%20app%201.png)
-![Screenshot of Geometry app](https://jothin-kumar.github.io/Geometry-app/geometry%20app%202.png)
+![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-1.png?raw=true)
+![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-2.png?raw=true)
 You can find my Geometry-app on Github: [https://github.com/jothin-kumar/geometry-app](https://github.com/jothin-kumar/geometry-app)
 To report bug or feature request: [https://github.com/Jothin-kumar/Geometry-app/issues/new/choose](https://github.com/Jothin-kumar/Geometry-app/issues/new/choose)
 ### Lines-of-code

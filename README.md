@@ -20,7 +20,7 @@ Here are some of them:
  - [Lines-of-code](/lines-of-code)
  - [Time-widget](/time-widget)
 ### [Geometry app](/Geometry-app)
-This is my favourite project! as the name denotes, I've been creating a GUI application to solve Geometrical problems! here is a preview of it:
+This is my favourite project! as the name denotes, I've been creating a GUI application to **draw and get answers for Geometrical problems**! here is a preview of it:
 ![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-1.png?raw=true)
 ![Screenshot of Geometry app](https://github.com/Jothin-kumar/Geometry-app/blob/geometry-app/geometry%20app-2.png?raw=true)
 You can find my Geometry-app on [Github](https://github.com/jothin-kumar/geometry-app)  

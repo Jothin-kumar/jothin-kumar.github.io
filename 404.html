@@ -7,7 +7,12 @@
         <script>
             async function toHome() {
                 for (let i = 5; i > 0; i--) {
-                    document.getElementById("note").innerHTML = "The page you are looking for does not exist or have been removed. Redirecting to home page in " + i.toString() + " seconds.";
+                    if (i === 1) {
+                        document.getElementById("note").innerHTML = "The page you are looking for does not exist or have been removed. Redirecting to home page in 1 second.";
+                    }
+                    else {
+                        document.getElementById("note").innerHTML = "The page you are looking for does not exist or have been removed. Redirecting to home page in " + i.toString() + " seconds.";
+                    }
                     await new Promise(resolve => setTimeout(resolve, 1000));
                 }
                 window.location.href = "index.html";

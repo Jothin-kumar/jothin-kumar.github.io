@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: darkgray;
+    background: lightgray;
     z-index: 1;
 }
 .main-content {
@@ -16,6 +16,7 @@ body {
     text-align: center;
     box-shadow: 10px 10px 10px red;
     padding: 15px;
+    border: red solid 2px;
 }
 .brand {
     font-size: xxx-large;
@@ -50,9 +51,13 @@ p {
     color: white;
     text-decoration: none;
 }
-.top-navbar-item:hover {
+.top-navbar-link:hover {
     background: gray;
     color: black;
+}
+.top-navbar-brand:hover {
+    background: blue;
+    color: yellow;
 }
 .current-top-navbar-item {
     background: darkgray;

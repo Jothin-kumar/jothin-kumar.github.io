@@ -23,13 +23,13 @@ body {
     font-weight: bold;
     color: #ffff2e;
     text-shadow: 5px 5px 5px blue;
-    animation: grow-shrink 2s;
+    animation: grow-shrink 4s 2;
 }
 @keyframes grow-shrink {
-    0%, 100% {
+    25%, 100% {
         transform: scale(1);
     }
-    50% {
+    75% {
         transform: scale(1.2);
     }
 }

@@ -41,6 +41,62 @@
             -ms-transform: scale(1.1);
             transform: scale(1.1);
         }
+        #welcome-cover-top {
+            background-color: black;
+            width: 100%;
+            height: 50%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index: 3;
+            animation: disappear-left 4s forwards;
+        }
+        #welcome-cover-bottom {
+            background-color: black;
+            width: 100%;
+            height: 50%;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: 3;
+            animation: disappear-right 4s forwards;
+        }
+        #welcome-message {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 5vw;
+            text-align: center;
+            font-weight: bold;
+            z-index: 4;
+            animation: disappear 4s forwards;
+        }
+        @keyframes disappear-left {
+            25% {
+                width: 100%;
+            }
+            100% {
+                width: 0;
+            }
+        }
+        @keyframes disappear-right {
+            25% {
+                width: 100%;
+            }
+            100% {
+                width: 0;
+            }
+        }
+        @keyframes disappear {
+            25% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -49,7 +105,7 @@
             <a href="/" class="top-navbar-item top-navbar-brand">Jothin kumar</a>
         </div>
         <div class="top-navbar-menu">
-            <a href="/" class="top-navbar-item top-navbar-link">Home</a>
+            <a href="/home.html" class="top-navbar-item top-navbar-link">Home</a>
             <a href="/projects.html" class="top-navbar-item top-navbar-link">Projects</a>
             <a href="/blog.html" class="top-navbar-item top-navbar-link">Blog</a>
             <a href="/contact.html" class="top-navbar-item top-navbar-link">Contact</a>
@@ -58,12 +114,15 @@
     <div class="main-content">
         <h1 class="brand">Jothin kumar</h1>
         <img class="brand-logo" src="/favicon.png" alt="Jothin kumar">
-        <p>Hi! I am Jothin kumar. I develop interesting open source projects as well as, write blogs.</p>
+        <p>Hi! I am Jothin kumar. I develop open source software as well as, write blogs.</p>
         <nav id="main-navbar">
             <a href="/projects.html" class="main-navbar-item">My projects</a>
             <a href="/blog.html" class="main-navbar-item">My blog</a>
             <a href="/contact.html" class="main-navbar-item">Contact me</a>
         </nav>
     </div>
+    <div id="welcome-cover-top"></div>
+    <div id="welcome-cover-bottom"></div>
+    <p id="welcome-message">Welcome</p>
 </body>
 </html>

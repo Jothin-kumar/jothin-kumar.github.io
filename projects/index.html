@@ -4,42 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="I am Jothin kumar, a programming hobbyist from India.">
-    <meta property="og:url" content="https://jothin.tech/blog">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="Jothin kumar's blog'">
+    <meta property="og:url" content="https://jothin.tech/projects">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects - Jothin kumar">
     <meta property="og:description" content="I am Jothin kumar, a programming hobbyist from India.">
     <meta property="og:image" content="/favicon.ico">
     <meta name="twitter:card" content="I am Jothin kumar, a programming hobbyist from India.">
-    <meta name="twitter:title" content="Jothin kumar's blog'">
+    <meta name="twitter:title" content="Projects - Jothin kumar">
     <meta name="twitter:image" content="/favicon.ico">
     <meta name="twitter:description" content="I am Jothin kumar, a programming hobbyist from India.">
-    <title>Jothin kumar's blog</title>
+    <title>Projects - Jothin kumar</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//web.webformscr.com/apps/fc3/build/loader.js" async sp-form-id="21f6e9a50ed35a31979a0b032148241c10e42084735d76b8313dbf7dac1b5522"></script>
-    <script>
-        function toBlog() {
-            window.location.href = "https://blog.jothin.tech"
+    <style>
+        #main-navbar {
+            width: -moz-fit-content;
+            width: fit-content;
+            left: 50%;
+            display: inline-block;
+            margin-top: 10px;
         }
-        // TODO: Add g analytics.
-    </script>
+        .main-navbar-item {
+            display: inline-block;
+            color: white;
+            font-size: large;
+            text-decoration: none;
+            background-color: blue;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        .main-navbar-item:hover {
+            background-color: red;
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    </style>
 </head>
-<body onload="toBlog()">
+<body>
     <nav id="top-navbar">
         <div class="top-navbar-brand">
             <a href="/" class="top-navbar-item top-navbar-brand">Jothin kumar</a>
         </div>
         <div class="top-navbar-menu">
             <a href="/home" class="top-navbar-item top-navbar-link">Home</a>
-            <a href="/projects" class="top-navbar-item top-navbar-link">Projects</a>
-            <a href="/blog" class="top-navbar-item top-navbar-link current-top-navbar-item">Blog</a>
+            <a href="/projects" class="top-navbar-item top-navbar-link current-top-navbar-item">Projects</a>
+            <a href="/blog" class="top-navbar-item top-navbar-link">Blog</a>
             <a href="/contact" class="top-navbar-item top-navbar-link">Contact</a>
         </div>
     </nav>
     <div class="main-content">
-        <p>Redirecting to blog page... If your browser doesn't automatically redirect you to the blog page, please click <a href="https://blog.jothin.tech">here</a>.</p>
+        <h1>Projects</h1>
+        <p>Leave a star for the projects you like.</p>
+        <nav id="main-navbar">
+            <a href="https://github.com/Jothin-kumar/Geometry-app" target="_blank" class="main-navbar-item">Geometry App</a>
+            <a href="https://github.com/Jothin-kumar/lines-of-code" target="_blank" class="main-navbar-item">Lines of Code</a>
+            <a href="https://github.com/Jothin-kumar/time-widget" target="_blank" class="main-navbar-item">Time Widget</a>
+        </nav>
     </div>
     <footer>
         <p id="copyright">© Copyright 2022 Jothin kumar</p>

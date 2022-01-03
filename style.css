@@ -127,6 +127,7 @@ footer {
 #copyright {
     font-weight: bold;
     font-size: large;
+    font-style: italic;
 }
 .social-icons {
     display: inline-block;

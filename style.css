@@ -18,6 +18,15 @@ body {
     box-shadow: 10px 10px 10px red;
     padding: 15px;
     border: red solid 2px;
+    animation: blink-shadow 2s infinite;
+}
+@keyframes blink-shadow {
+    0%, 100% {
+        box-shadow: 10px 10px 10px red;
+    }
+    50% {
+        box-shadow: 0 0 0 red;
+    }
 }
 .brand {
     font-size: xxx-large;

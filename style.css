@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: lightgray;
     z-index: 1;
+    overflow: hidden;
 }
 .main-content {
     position: absolute;
@@ -97,8 +98,48 @@ p {
         display: none;
     }
 }
+@media (max-height: 660px) {
+    footer {
+        display: none;
+    }
+}
 @media (max-width: 230px) {
     #top-navbar {
         display: none;
     }
+    footer {
+        display: none;
+    }
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 5px;
+    overflow: hidden;
+}
+#copyright {
+    font-weight: bold;
+    font-size: large;
+}
+.social-icons {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.social-icon:hover {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.social-icon {
+    display: inline-block;
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
 }

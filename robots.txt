@@ -6,13 +6,16 @@ User-agent: Googlebot-Image
 Allow: /
 Disallow: 
 
-User-agent: *
-Allow: 
-Disallow: /
-
 User-agent: bingbot
 Allow: /
 Disallow: 
 
+User-agent: PetalBot
+Allow: /
+Disallow: 
+
+User-agent: *
+Allow: 
+Disallow: /
 
 Sitemap: https://jothin-kumar.github.io/sitemap.xml

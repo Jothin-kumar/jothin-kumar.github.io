@@ -18,4 +18,4 @@ User-agent: *
 Allow: 
 Disallow: /
 
-Sitemap: https://jothin-kumar.github.io/sitemap.xml
+Sitemap: https://jothin.tech/sitemap.xml

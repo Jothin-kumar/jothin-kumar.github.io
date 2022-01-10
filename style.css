@@ -92,6 +92,10 @@ p {
     color: white;
     text-decoration: none;
 }
+.top-navbar-item:hover {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 .top-navbar-link:hover {
     background: gray;
     color: black;

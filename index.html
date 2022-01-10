@@ -49,7 +49,7 @@
             left: 0;
             position: absolute;
             z-index: 3;
-            animation: disappear-left 4s forwards;
+            animation: disappear-left 1s forwards;
         }
         #welcome-cover-bottom {
             background-color: black;
@@ -59,7 +59,7 @@
             right: 0;
             position: absolute;
             z-index: 3;
-            animation: disappear-right 4s forwards;
+            animation: disappear-right 1.5s forwards;
         }
         #welcome-message {
             position: absolute;
@@ -71,10 +71,10 @@
             text-align: center;
             font-weight: bold;
             z-index: 4;
-            animation: disappear 4s forwards;
+            animation: disappear 1s forwards;
         }
         @keyframes disappear-left {
-            25% {
+            75% {
                 width: 100%;
             }
             100% {
@@ -82,7 +82,7 @@
             }
         }
         @keyframes disappear-right {
-            25% {
+            85% {
                 width: 100%;
             }
             100% {
@@ -90,7 +90,7 @@
             }
         }
         @keyframes disappear {
-            25% {
+            75% {
                 opacity: 1;
             }
             100% {

@@ -18,7 +18,7 @@ User-agent: *
 Allow: 
 Disallow: /
 
-Sitemap: https://jothin.tech/sitemap.xml
+Sitemap: https://www.jothin.tech/sitemap.xml
 Sitemap: https://sitemaps.jothin.tech/jothin.tech.xml
 Sitemap: https://sitemaps.jothin.tech/blog.jothin.tech.xml
 Sitemap: https://sitemaps.jothin.tech/show.jothin.tech.xml

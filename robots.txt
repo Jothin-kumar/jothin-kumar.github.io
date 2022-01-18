@@ -1,3 +1,4 @@
+# If you would like to crawl this website, send a mail to contact@jothin.tech
 User-agent: Googlebot
 Allow: /
 Disallow: 

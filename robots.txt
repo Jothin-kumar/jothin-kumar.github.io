@@ -10,10 +10,17 @@ Disallow:
 User-agent: bingbot
 Allow: /
 Disallow: 
+crawl-delay: 2
 
 User-agent: PetalBot
 Allow: /
 Disallow: 
+crawl-delay: 10
+
+User-agent: AhrefsBot
+Allow: /
+Disallow: 
+crawl-delay: 10
 
 User-agent: *
 Allow: 

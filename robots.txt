@@ -1,3 +1,4 @@
+# If you would like to crawl this website, send a mail to contact@jothin.tech
 User-agent: Googlebot
 Allow: /
 Disallow: 
@@ -9,10 +10,21 @@ Disallow:
 User-agent: bingbot
 Allow: /
 Disallow: 
+crawl-delay: 2
+
+User-agent: serpstatbot
+Allow: /
+Disallow: 
 
 User-agent: PetalBot
 Allow: /
 Disallow: 
+crawl-delay: 10
+
+User-agent: AhrefsBot
+Allow: /
+Disallow: 
+crawl-delay: 10
 
 User-agent: *
 Allow: 

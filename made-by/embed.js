@@ -1,15 +1,15 @@
 function displayMadeBy (bg, fg, shadow) {
     const element = document.createElement('a');
     const logo = document.createElement('img');
-    const subtitles = document.createElement('div');
+    const subtitles = document.createElement('p');
     logo.src = 'https://jothin.tech/favicon.png';
     logo.alt = 'Jothin kumar';
     logo.style.width = '20%';
     logo.style.height = '20%';
     logo.style.borderRadius = '50%';
-    logo.style.padding = '1px';
+    logo.style.padding = '10px';
     element.appendChild(logo);
-    subtitles.innerText = '<p>Website made by</p><br><b>Jothin kumar</b>';
+    subtitles.innerText = 'Website made by Jothin kumar';
     subtitles.style.fontWeight = 'bolder';
     subtitles.style.padding = '1px';
     element.appendChild(subtitles);

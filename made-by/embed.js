@@ -25,7 +25,7 @@ function displayMadeBy (bg, fg, shadow) {
     element.style.maxWidth = '20%';
     element.style.textDecoration = 'none';
     element.id = 'made-by-jothin-kumar-widget'
-    element.href = 'https://jothin.tech';
+    element.href = 'https://jothin.tech' + '?utm_source=' + window.location.hostname + '&utm_medium=widget&utm_campaign=made-by-jothin-kumar-widget';
     document.body.appendChild(element);
     const additionalStyle = document.createElement('style');
     additionalStyle.innerText = '#made-by-jothin-kumar-widget:hover {box-shadow: 0px 0px 0px red; transform: scale(1.1);}';

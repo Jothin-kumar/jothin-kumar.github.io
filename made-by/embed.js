@@ -1,7 +1,7 @@
 function displayMadeBy (bg, fg, shadow) {
     const element = document.createElement('a');
     const logo = document.createElement('img');
-    const subtitles = document.createElement('p');
+    const subtitles = document.createElement('div');
     logo.src = 'https://jothin.tech/favicon.png';
     logo.alt = 'Jothin kumar';
     logo.style.width = '20%';
@@ -9,7 +9,7 @@ function displayMadeBy (bg, fg, shadow) {
     logo.style.borderRadius = '50%';
     logo.style.padding = '1px';
     element.appendChild(logo);
-    subtitles.innerText = 'Website made by<br>Jothin kumar';
+    subtitles.innerText = '<p>Website made by</p><br><b>Jothin kumar</b>';
     subtitles.style.fontWeight = 'bolder';
     subtitles.style.padding = '1px';
     element.appendChild(subtitles);

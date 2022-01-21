@@ -12,6 +12,10 @@ Allow: /
 Disallow: 
 crawl-delay: 2
 
+User-agent: serpstatbot
+Allow: /
+Disallow: 
+
 User-agent: PetalBot
 Allow: /
 Disallow: 

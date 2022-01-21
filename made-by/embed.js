@@ -7,11 +7,11 @@ function displayMadeBy (bg, fg, shadow) {
     logo.style.width = '20%';
     logo.style.height = '20%';
     logo.style.borderRadius = '50%';
-    logo.style.padding = '10px';
+    logo.style.padding = '5px';
     element.appendChild(logo);
     subtitles.innerText = 'Website made by Jothin kumar';
-    subtitles.style.fontWeight = 'bolder';
-    subtitles.style.padding = '1px';
+    subtitles.style.fontWeight = 'bold';
+    subtitles.style.padding = '5px';
     element.appendChild(subtitles);
     element.style.position = 'fixed';
     element.style.bottom = '0';

@@ -13,12 +13,12 @@ function displayMadeBy (bg, fg, shadow) {
     subtitles.innerText = 'Website managed by';
     subtitles.style.fontWeight = 'bold';
     subtitles.style.padding = '1px';
-    subtitles.style.fontSize = 'small';
+    subtitles.style.fontSize = 'x-small';
     element.appendChild(subtitles);
     jothinKumar.innerText = 'Jothin Kumar';
     jothinKumar.style.fontWeight = 'bolder';
     jothinKumar.style.padding = '2px';
-    jothinKumar.style.fontSize = 'x-small';
+    jothinKumar.style.fontSize = 'small';
     element.appendChild(jothinKumar);
     element.style.position = 'fixed';
     element.style.bottom = '0';

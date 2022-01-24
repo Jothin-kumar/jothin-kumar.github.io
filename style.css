@@ -65,7 +65,7 @@ body {
     box-shadow: 0 0 10px white;
 }
 #top-nav.light-mode {
-    box-shadow: 0 0 10px orange;
+    box-shadow: 0 0 10px black;
 }
 #top-nav-brand {
     display: inline-block;
@@ -107,21 +107,24 @@ section {
     margin-right: auto;
     margin-top: 5%;
     max-width: 75%;
-    width: fit-content;
+    width: max-content;
     border-style: solid;
+    border-width: 2px;
     padding: 50px;
 }
 section.dark-mode {
     border-color: white;
+    box-shadow: 0 0 5px white;
 }
 section.dark-mode:hover {
     box-shadow: 0 0 10px white;
 }
 section.light-mode {
     border-color: orange;
+    box-shadow: 0 0 5px black;
 }
 section.light-mode:hover {
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px black;
 }
 @media screen and (max-width: 400px) {
     section {

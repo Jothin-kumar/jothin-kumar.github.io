@@ -19,33 +19,62 @@
     <link rel="icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/favicon.ico">
 </head>
-<body class="dark-mode">
-<nav id="top-nav" class="dark-mode">
-    <a id="top-nav-brand" href="/" class="dark-mode">Jothin kumar</a>
-    <div id="top-nav-urls" class="dark-mode">
-        <a href="#about" class="top-nav-link dark-mode">About</a>
-        <a href="#projects" class="top-nav-link dark-mode">Projects</a>
-        <a href="#contact" class="top-nav-link dark-mode">Contact</a>
+<body class="light-mode">
+<nav id="top-nav" class="light-mode">
+    <a id="top-nav-brand" href="/" class="light-mode">Jothin kumar</a>
+    <div id="top-nav-urls" class="light-mode">
+        <a href="#about" class="top-nav-link light-mode">About</a>
+        <a href="#projects" class="top-nav-link light-mode">Projects</a>
+        <a href="#contact" class="top-nav-link light-mode">Contact</a>
     </div>
 </nav>
-<section id="about" class="dark-mode">
+<section id="about" class="light-mode">
     <h1>Jothin kumar</h1>
     <img src="favicon.png" alt="Jothin kumar" id="logo">
     <p id="introduction">Hi, I am Jothin kumar.</p>
-    <p id="hobbies-container" class="dark-mode"></p>
+    <p id="hobbies-container" class="light-mode"></p>
+    <noscript>Please enable Javascript for a better experience.</noscript>
     <ul id="hobbies">
         <li class="hobby">Open source developer</li>
         <li class="hobby">Blogger</li>
         <li class="hobby">Student</li>
         <li class="hobby">Tech enthusiast</li>
     </ul>
+    <div class="social-icons light-mode">
+        <a href="profile/GitHub.html" target="_blank" class="social-icon light-mode">
+            <img src="data:image/png;base64,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" alt="GitHub">
+        </a>
+        <a href="profile/twitter.html" target="_blank" class="social-icon light-mode">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAE20lEQVRoge3YW2yTdRgG8Odta8GBzh3KoIOd7BzxiGICISCi3GDigQQmEYMYgk4JckEGKGAaTTSiaAwCTsF5gSEuiiEGvSIalwWIohciCE4YbMDKtnbrTh3t9z5ebMWNfB/raRsXfe6+Nf+3v6f/r/2WP5BOOumkk04SkbF408LdVx5UkRVULiRlGkAniYtUHlEba3xr8g5BhGZrsz6+VBBY574QvbYsULa/290XyvA3vCihVMFLqvyZYeVuQJeREBIACBJg/wVIgsRREa5qfm3Kyeja7O3NswXGJqr86690rx+2wN1fdX1BSuYpZ0Y5ysVIFj9tR4ubDjks4PR+sCV+4FraCW4leS+IRSQLSPjtevWelg3FzTcs4PmB45z+nlaAEwF8OSl/wuqfF0gkUXxR9bnxRui2WoAPx4aH2WsRIZa0VeYfHDzbZvaG4/w99w/gQXJlc2P3gZlVzEi0QKR34tok8d0gl9t49VjWtguvZL3X9DpIsSxAgXvwYIBPdo0P1pXtDZbFrffSIYINSeABsJHA9jAclwFZB/btin7JTQuIoZ3/L44Okhm083hpdXsFvDRdZ5Z8V+s8ErlJ4EFiOsmpAJoiEXkqsOnOjuh8U0jYbjQMxV8bNIHEbk9Bx6/F1f55sRQQG+9LEj/wd/7uIGd1vjH1zOD5pgXO/JPZAEiD+SCA5ENiyC/FewK1hZ8FFqOGdqsCpM2VPB5nx4nzkdaNBZeun29+K3hFCe658ScHgJwr4IHCQNvloqq2qsJPrzxRsKs9a/AoobYmiQfJdl/l5G4zquVzwLOv7XZbxPEHiRJTvEUxgCRxhorTAjYaQB7IJYnjAYJ1wY0Fc82cDqsC9c/nBD3VHctBHgaQESMe7H/ClkFYpkR0QeL4/teCVk7TW6i0uuO5u6qDNYDhAvACSV+M+GR+Kq3wAHntf5/rY7EDbFFyKWBbGscnPzJ4EArWWxUw3QGbho8CCN8MeBIQ4nhcBU6vcnWS+t3NgCcZ7go7j8VVAADE4Fsk+sYYDwhq4XX3xF2g/qWcvwCuH1M8ACq+tTLesAAAnFudvZPK9QAiY4In+2yRyDcJFwCA8xU5H0Iwn2TdKOMBYH+X13MlqQKFVS1TDDXuEOhGAl4q/KOBJ6E2MbYP57N8Ekdjh71HaXytlIkkABkVPATY17XZc2I437A7cPbl7A6lvDNat80APkgxtgxni6kAAFzMzdkG8NBo4AFAicreLZ7GlBVAuRiRHn1Wge9HGg/yYGhr0ecxuWIuAMBXObm7eY3raSVXkWgYCTzJU71qrLA61DJLYidzNbS7mi7PgU3mULkMwIwU4M9D5dGQt7ghHkrMOzAk5WKEpe9PKksBPJAavP2xePFAAjvg/uBSbtiBCirWApiUAvwRux2LuzeX+OK1xFwg7yNfCYQLCH2clGdI3joUkhBeobqjl7ZN8BYnfP46tAApU3e2LIoAFSBzQbpITCajp3Sp+cIScgLUV0NvltQmCjcvMJD8T5pyIoZjM4DVKcVD6qn6dkiL98ErmizeskA0ee83T1Anl0CxkuR8AJIAPqDKHwnZG9pS+FM8P5FJFxiczHfPZ9lucc4W6iwRzlQin2Q2BDlUjCfZSSIA0KeUk4D+rWBtr6fot1Qcz6eTTjrppDMi+Q8fgF/hmeYFBwAAAABJRU5ErkJggg==" alt="Twitter">
+        </a>
+        <a href="profile/hashnode.html" target="_blank" class="social-icon light-mode">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADLklEQVRoge2ZTWsTURSGnzNRW6GlG3FRXCnotIKgG+sP0Cr4jeLaRNwJooJB604RF0qxWzs7N9aFLdqC/gD7AySJojtRqCvNQkubOS68gZmkSebemaQu8u5mzj3nvM/MJTnDhb76SiXJtNpFze0f4lwonAYmgFET+QYsK8xXqrxiTmpZtcwMwL+sk54wreB3WFpWuF4J5G0Wfb0sivh5LYqwmMA8wJjAkp/XYha9U78BP68PBO44Nn9SCuRmmv6pANKYjxhIBeEMkIX5iAlnCCeALM1HjDhBWAN0w3zEjDWEFUA3zddlC5EYoBfm67KBSATQS/N1JYXoCLAZ5utKAtEWYDPN19UJoiXA/2C+rnYQG85Cfl6LruYVVlCmvJCDW9cY2rrGkAiHEO4prDjWvDFW0NsbxZregH9ZJ0VYxG3Qmwuh8DGQ6kbBfXkdFggELjjUDvE4Xn4m76I34wAXNTc+zIeEU2Wj5soBl0C0/TIVP88LR4hSucqB6PdE7CnvH+Kci3mFlRAKnc0DiK6vUgB+2PYBxv0RzkRvxADMl5S1RHnaattspM/P5Rcw49SrFvfYuM8nXIp6wmtrIw45/xI5EuvdEB7FRYN8sU2pKZ+dejV4bARIsIebtf7HfqqtrTp/i8Q8NgJ8d6m4JWSPbc62Qfsco5jHRoBll4phjpPWOSGnXHqhvI9eevEY8041lWv78jqcdP3uqzoiwjWnXjkWotcxgEqVV0DZtqjAToEANMG+VhlYIwB22PYBSpWf8YfcPErk9ZjAEg6jhMLL9VUK5ne+Sbuv6sjAGgHCedvaQA2PE+1HCSMzzD10aAL//mFnUN542/kEEP5mr8JJs21cnjwIxfKsPGq+3UJjBb2PctepWcYSeFwK5FaLWGv9DxDtzJt4e20mRCfzZk1nbQZEEvNmXTL1EiKpebM2uXoBYWPerLdTNyFszZsce3UDwsW8yXNTlhCu5k2uu7KASGPe5KdTGoi05iGDQ77yrEwhFIHQIq2GUExrHjI8Zh27okcJmQbGOywt4XG9cap0VeYH3f4wZwVOA4eBXSbyFWVZcyxUfjKf5UF3X32l1F9bTjEGHYVmXgAAAABJRU5ErkJggg==" alt="Hashnode">
+        </a>
+    </div>
 </section>
-<section id="projects" class="dark-mode">
+<section id="projects" class="light-mode">
     <h2>My projects</h2>
+    <div id="projects-list">
+        <div id="Geometry-app" class="project light-mode">
+            <h3>Geometry app</h3>
+            <p>A GUI application to solve geometry problems, currently under development.</p>
+            <img src="img/Geometry-app.png" alt="Geometry app">
+        </div>
+        <div id="lines-of-code" class="project light-mode">
+            <h3>Lines of code</h3>
+            <p>Lines of code is an app to calculate the number of commits, addition and deletion by an user in git.</p>
+            <img src="img/lines-of-code.png" alt="Lines of code">
+        </div>
+        <div id="time-widget" class="project light-mode">
+            <h3>Time widget</h3>
+            <p>A GUI widget for Linux and Windows to show current time in different timezones.</p>
+            <img src="img/time-widget.png" alt="Time widget">
+        </div>
+    </div>
 </section>
-<section id="contact" class="dark-mode">
+<section id="contact" class="light-mode">
     <h2>Contact me</h2>
 </section>
-<div id="toggle-theme-div"><img id="toggle-theme-button" class="dark-mode"></div>
+<div id="toggle-theme-div"><img id="toggle-theme-button" class="light-mode"></div>
 </body>
 </html>

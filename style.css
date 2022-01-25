@@ -97,7 +97,7 @@ body {
 .top-nav-link:hover {
     color: red;
 }
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 622px) {
     #top-nav {
         text-align: center;
     }
@@ -221,28 +221,41 @@ section.light-mode:hover {
         font-size: large;
     }
 }
-/*projects section CSS*/
-#projects {
+/*projects and blogs section CSS*/
+#projects, #blogs {
     align-items: center;
     text-align: center;
 }
-.project {
+.project, .blog {
     display: inline-block;
     max-width: 25em;
     margin: 10px;
     padding: 5px;
     border-radius: 2%;
 }
-.project.dark-mode {
+.project.dark-mode, .blog.dark-mode {
     box-shadow: 0 0 5px white;
 }
-.project.light-mode {
+.project.light-mode, .blog.light-mode {
     box-shadow: 0 0 5px black;
 }
-.project:hover {
+.project:hover, .blog:hover {
     transform: scale(1.1);
 }
-.project img {
+.project img{
     width: 12em;
     height: 9em;
+}
+.blog img {
+    width: 20em;
+    height: 15em;
+}
+#all-projects, #all-blogs {
+    margin: auto;
+}
+#all-projects.dark-mode, #all-blogs.dark-mode {
+    color: white;
+}
+#all-projects.light-mode, #all-blogs.light-mode {
+    color: blue;
 }

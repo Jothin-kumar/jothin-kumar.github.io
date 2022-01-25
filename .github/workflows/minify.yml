@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install html-minifier
-        run: echo Hello, world!
+        run: npm install html-minifier -g
       - name: Minify index.html
         run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true index.html --output index.html
       - name: Minify 404.html

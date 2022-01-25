@@ -28,6 +28,8 @@ jobs:
           html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true social/GitHub.html --output social/GitHub.html
           html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true social/Hashnode.html --output social/Hashnode.html
           html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true social/twitter.html --output social/twitter.html
+      - name: Minify icons8-credits.html
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true icons8-credits.html --output icons8-credits.html
       - name: git config
         run: |
           git config --global user.name "Minify bot"

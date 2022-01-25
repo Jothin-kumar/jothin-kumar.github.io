@@ -27,12 +27,12 @@ function initializeThemeSwitch() {
     const img = document.getElementById('toggle-theme-button');
     img.style.display = 'inline-block';
     img.onclick = toggleTheme;
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-        lightMode();
-        img.src = darkModeLogo;
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        darkMode();
+        img.src = lightModeLogo;
     }
     else {
-        img.src = lightModeLogo;
+        img.src = darkModeLogo;
     }
 }
 /*Hobbies display JS*/

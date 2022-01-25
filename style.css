@@ -94,6 +94,9 @@ body {
     font-size: xx-large;
     padding: 5px;
 }
+.top-nav-link:hover {
+    color: red;
+}
 @media screen and (max-width: 535px) {
     #top-nav {
         text-align: center;

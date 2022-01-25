@@ -243,7 +243,8 @@ section.light-mode:hover {
 }
 .project, .blog, .contact {
     display: inline-block;
-    max-width: 25em;
+    width: available;
+    height: available;
     margin: 10px;
     padding: 5px;
     border-radius: 2%;
@@ -266,8 +267,8 @@ section.light-mode:hover {
     height: 9em;
 }
 .blog img {
-    width: 20em;
-    height: 15em;
+    width: 12em;
+    height: 9em;
 }
 #all-projects, #all-blogs {
     margin: auto;

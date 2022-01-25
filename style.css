@@ -284,3 +284,38 @@ section.light-mode:hover {
 .social {
     margin: 2px;
 }
+/*Footer CSS*/
+footer {
+    text-align: center;
+}
+footer.dark-mode {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+footer.light-mode {
+    background-color: lightgray;
+    color: black;
+    box-shadow: 0 0 5px black;
+}
+#copyright {
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+}
+#copyright-brand {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    color: red;
+}
+#footer-font {
+    font-family: 'Dongle', sans-serif;
+    font-size: larger;
+}
+#footer-font.dark-mode {
+    color: white;
+}
+#icons8-credit.light-mode {
+    color: black;
+    background-color: lightgray;
+}

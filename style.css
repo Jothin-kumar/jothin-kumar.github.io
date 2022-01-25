@@ -221,12 +221,12 @@ section.light-mode:hover {
         font-size: large;
     }
 }
-/*projects and blogs section CSS*/
-#projects, #blogs {
+/*projects, blogs and contact section CSS*/
+#projects, #blogs, #contact {
     align-items: center;
     text-align: center;
 }
-.project, .blog {
+.project, .blog, .contact {
     display: inline-block;
     max-width: 25em;
     margin: 10px;
@@ -239,7 +239,7 @@ section.light-mode:hover {
 .project.light-mode, .blog.light-mode {
     box-shadow: 0 0 5px black;
 }
-.project:hover, .blog:hover {
+.project:hover, .blog:hover, .contact:hover {
     transform: scale(1.1);
 }
 .project img{

@@ -6,13 +6,25 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.jothin.tech/projects/</loc>
-        <changefreq>monthly</changefreq>
+        <loc>https://www.jothin.tech/projects/all.html</loc>
+        <changefreq>always</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.jothin.tech/contact/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://www.jothin.tech/blog/all.html</loc>
+        <changefreq>always</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://jothin.tech/social/Dev-community.html</loc>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/social/GitHub.html</loc>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/social/Hashnode.html</loc>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/social/twitter.html</loc>
     </url>
 </urlset>

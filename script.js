@@ -54,7 +54,18 @@ async function displayHobbies() {
         }
     }
 }
+/*Loading screen*/
+const additionalStylesheet = document.createElement('style');
+additionalStylesheet.innerHTML = '#loading-screen {display: block;} * {scroll-behavior: unset;}';
+document.head.appendChild(additionalStylesheet);
+const onscroll = window.onscroll;
+window.onscroll = window.onscroll = function () { window.scrollTo(0, 0); };
+function hideLoading() {
+    window.onscroll = onscroll;
+    additionalStylesheet.remove();
+}
 function initialize() {
+    hideLoading()
     initializeThemeSwitch();
     displayHobbies();
 }

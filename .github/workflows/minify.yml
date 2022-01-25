@@ -1,0 +1,26 @@
+name: Minify
+on:
+  push:
+    branches: [ website ]
+jobs:
+  minify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install html-minifier
+        run: echo Hello, world!
+      - name: Minify index.html
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true index.html --output index.html
+      - name: Minify 404.html
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true 404.html --output 404.html
+      - name: git config
+        run: |
+          git config --global user.name "Minify bot"
+          git config --global user.email "<>"
+      - name: Commit changes
+        run: |
+          git add index.html
+          git add 404.html
+          git commit -m "Minify"
+      - name: git push
+        run: git push origin main

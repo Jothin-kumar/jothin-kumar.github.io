@@ -1,34 +1,34 @@
-# If you would like to crawl this website, send a mail to contact@jothin.tech
 User-agent: Googlebot
+crawl-delay: 1
 Allow: /
-Disallow: 
+Disallow: /credits.html
+Disallow: /made-by/*
+Disallow: *.js
+Disallow: *.css
 
 User-agent: Googlebot-Image
+crawl-delay: 1
 Allow: /
-Disallow: 
+Disallow: /credits.html
+Disallow: /made-by/*
+Disallow: *.js
+Disallow: *.css
 
 User-agent: bingbot
+crawl-delay: 3
 Allow: /
-Disallow: 
-crawl-delay: 2
-
-User-agent: serpstatbot
-Allow: /
-Disallow: 
-
-User-agent: PetalBot
-Allow: /
-Disallow: 
-crawl-delay: 10
-
-User-agent: AhrefsBot
-Allow: /
-Disallow: 
-crawl-delay: 10
+Disallow: /credits.html
+Disallow: /made-by/*
+Disallow: *.js
+Disallow: *.css
 
 User-agent: *
-Allow: 
-Disallow: /
+crawl-delay: 10
+Allow: /
+Disallow: /credits.html
+Disallow: /made-by/*
+Disallow: *.js
+Disallow: *.css
 
 Sitemap: https://www.jothin.tech/sitemap.xml
 Sitemap: https://sitemaps.jothin.tech/jothin.tech.xml

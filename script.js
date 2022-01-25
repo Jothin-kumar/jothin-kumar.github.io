@@ -56,12 +56,9 @@ async function displayHobbies() {
 }
 /*Loading screen*/
 const additionalStylesheet = document.createElement('style');
-additionalStylesheet.innerHTML = '#loading-screen {display: block;} * {scroll-behavior: unset;}';
+additionalStylesheet.innerHTML = '.loadingio-spinner-spinner-n7pk1v37t5 {display: inline-block;} .cdn-img img {display: none;}';
 document.head.appendChild(additionalStylesheet);
-const onscroll = window.onscroll;
-window.onscroll = window.onscroll = function () { window.scrollTo(0, 0); };
 function hideLoading() {
-    window.onscroll = onscroll;
     additionalStylesheet.remove();
 }
 function initialize() {

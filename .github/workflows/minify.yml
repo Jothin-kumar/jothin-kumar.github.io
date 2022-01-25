@@ -23,4 +23,4 @@ jobs:
           git add 404.html
           git commit -m "Minify"
       - name: git push
-        run: git push origin main
+        run: git push origin website

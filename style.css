@@ -278,3 +278,9 @@ section.light-mode:hover {
 #all-projects.light-mode, #all-blogs.light-mode {
     color: blue;
 }
+.contact p {
+    font-family: 'Outfit', sans-serif;
+}
+.social {
+    margin: 2px;
+}

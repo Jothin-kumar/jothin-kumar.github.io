@@ -14,14 +14,13 @@ jobs:
       - name: Minify 404.html
         run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true 404.html --output 404.html
       - name: Minify blog/*
-        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir /blog --output-dir /blog --file-ext html
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir ./blog --output-dir ./blog --file-ext html
       - name: Minify profile/*
-        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir /profile --output-dir /profile -file-ext html
-      - name: Minify projects/all.html
-        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true projects/all.html --output projects/all.html
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir ./profile --output-dir ./profile -file-ext html
+      - name: Minify projects/*
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true ./projects --output ./projects
       - name: Minify social/*
-        run: |
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir /social --output-dir /social -file-ext html
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir ./social --output-dir ./social -file-ext html
       - name: Minify icons8-credits.html
         run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true icons8-credits.html --output icons8-credits.html
       - name: git config

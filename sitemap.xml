@@ -11,9 +11,33 @@
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://www.jothin.tech/projects/Geometry-app.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/projects/lines-of-code.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/projects/time-widget.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://www.jothin.tech/blog/all.html</loc>
         <changefreq>always</changefreq>
-        <priority>0.9</priority>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/blog/2fa-with-python.html</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/blog/how-to-create-installers-for-python-application.html</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.jothin.tech/blog/tkinter-crash-course.html</loc>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://jothin.tech/social/Dev-community.html</loc>

@@ -13,21 +13,15 @@ jobs:
         run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true index.html --output index.html
       - name: Minify 404.html
         run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true 404.html --output 404.html
-      - name: Minify blog/all.html
-        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true blog/all.html --output blog/all.html
+      - name: Minify blog/*
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir /blog --output-dir /blog --file-ext html
       - name: Minify profile/*
-        run: |
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true profile/GitHub.html --output profile/GitHub.html
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true profile/hashnode.html --output profile/hashnode.html
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true profile/twitter.html --output profile/twitter.html
+        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir /profile --output-dir /profile -file-ext html
       - name: Minify projects/all.html
         run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true projects/all.html --output projects/all.html
       - name: Minify social/*
         run: |
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true social/Dev-community.html --output social/Dev-community.html
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true social/GitHub.html --output social/GitHub.html
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true social/Hashnode.html --output social/Hashnode.html
-          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true social/twitter.html --output social/twitter.html
+          html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir /social --output-dir /social -file-ext html
       - name: Minify icons8-credits.html
         run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true icons8-credits.html --output icons8-credits.html
       - name: git config

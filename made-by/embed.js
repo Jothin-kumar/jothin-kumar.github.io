@@ -3,7 +3,7 @@ function displayMadeBy (bg, fg, shadow) {
     const logo = document.createElement('img');
     const subtitles = document.createElement('p');
     const jothinKumar = document.createElement('p');
-    logo.src = 'https://jothin.tech/favicon.png?utm_source=' + window.location.hostname + '&utm_medium=logo&utm_campaign=made-by';
+    logo.src = 'https://cdn.jothin.tech/favicon.min.png?utm_source=' + window.location.hostname + '&utm_medium=logo&utm_campaign=made-by';
     logo.alt = 'Jothin kumar';
     logo.style.width = '20%';
     logo.style.height = '20%';

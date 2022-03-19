@@ -1,1 +1,40 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>404 - Page not found</title><meta name="viewport"content="width=device-width,initial-scale=1"><script>async function toHome(){for(let e=5;0<e;e--)1===e?document.getElementById("note").innerHTML="The page you are looking for does not exist or have been removed. Redirecting to home page in 1 second.":document.getElementById("note").innerHTML="The page you are looking for does not exist or have been removed. Redirecting to home page in "+e.toString()+" seconds.",await new Promise(e=>setTimeout(e,1e3));window.location.href="/index.html"}</script><style>body{text-align:center;font-size:25px}</style><script async src="https://www.googletagmanager.com/gtag/js?id=G-364T848Y3N"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-364T848Y3N")</script></head><body onload="toHome()"><p id="note">The page you are looking for does not exist or have been removed.</p><a href="/">Home</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 - Page not found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        async function toHome() {
+            for (let i = 5; i > 0; i--) {
+                if (i === 1) {
+                    document.getElementById("note").innerHTML = "The page you are looking for does not exist or have been removed. Redirecting to home page in 1 second.";
+                }
+                else {
+                    document.getElementById("note").innerHTML = "The page you are looking for does not exist or have been removed. Redirecting to home page in " + i.toString() + " seconds.";
+                }
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+            window.location.href = "/index.html";
+        }
+    </script>
+    <style>
+        body {
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-364T848Y3N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-364T848Y3N');
+    </script>
+</head>
+<body onload="toHome()">
+<p id="note">The page you are looking for does not exist or have been removed.</p>
+<a href="/">Home</a>
+</body>
+</html>

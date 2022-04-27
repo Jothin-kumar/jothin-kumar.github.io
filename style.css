@@ -1,4 +1,12 @@
-* {text-decoration: none;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto:wght@100&display=swap');
+* {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+h1, h2, h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
 body {
     margin: 0;
     z-index: 2;

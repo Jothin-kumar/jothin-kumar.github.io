@@ -1,6 +1,8 @@
 body {
     margin: 0;
 }
+
+/* Top navbar */
 #top-nav {
     position: fixed;
     width: 100%;
@@ -18,6 +20,8 @@ body {
     text-decoration: none;
     color: black;
     display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #top-nav-urls {
     float: right;
@@ -38,5 +42,58 @@ body {
     }
     #top-nav {
         text-align: center;
+    }
+}
+
+/* Section */
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    max-width: 75%;
+    margin-top: 5em;
+    text-align: center;
+    border-radius: 5%;
+    padding: 25px;
+}
+
+/* About section */
+#about {
+    background-color: #fbf6f1;
+    display: flex;
+    flex-direction: row;
+}
+#about-left, #about-right {
+    padding: 25px;
+}
+#about-left {
+    border-right: #eedb4b solid 3px;
+}
+#about div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#hobbies {
+    display: none;
+}
+.social-icon svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.social-icon {
+    background-color: #fbf6f1;
+    color: #fbf6f1;
+}
+@media screen and (max-width: 920px){
+    #about-left, #about-right {
+        padding: 0;
+    }
+    #about-left {
+        border-right: none;
+    }
+    #about {
+        flex-direction: column;
     }
 }

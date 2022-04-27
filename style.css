@@ -177,3 +177,25 @@ section {
         padding-left: 0;
     }
 }
+
+/* Contact section */
+#contact {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+#contact-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#contact-list li a svg {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.social svg {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}

@@ -1,3 +1,4 @@
+* {text-decoration: none;}
 body {
     margin: 0;
     z-index: 2;
@@ -40,7 +41,6 @@ body {
     margin-left: 10px;
     font-size: x-large;
     font-weight: bold;
-    text-decoration: none;
     color: black;
     display: inline-block;
     margin-top: 0;
@@ -53,7 +53,6 @@ body {
     margin-right: 10px;
 }
 .top-nav-link {
-    text-decoration: none;
     color: #5b5e5c;
 }
 @media screen and (max-width: 768px) {
@@ -156,7 +155,6 @@ section {
     padding-left: 20px;
 }
 #all-projects, #all-blogs {
-    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.1);
     width: fit-content;
     margin: auto;
@@ -166,4 +164,16 @@ section {
 #all-projects:hover, #all-blogs:hover {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+}
+@media screen and (max-width: 1270px){
+    .project-description, .blog-description {
+        float: none;
+        width: 100%;
+        transform: none;
+    }
+    .cdn-img {
+        float: none;
+        border-left: none;
+        padding-left: 0;
+    }
 }

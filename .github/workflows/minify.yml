@@ -2,6 +2,7 @@ name: Minify
 on:
   push:
     branches: [ website ]
+  workflow_dispatch:
 jobs:
   minify:
     runs-on: ubuntu-latest

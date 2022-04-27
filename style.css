@@ -199,3 +199,13 @@ section {
     height: 30px;
     margin: 10px;
 }
+
+/* Footer */
+footer {
+    margin-top: 5em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+footer * {
+    color: #ecdfbf;
+}

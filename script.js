@@ -82,6 +82,50 @@ function initialize() {
     hideLoading()
     initializeThemeSwitch();
     fadeInAnimation();
+    binaryRain();
     displayHobbies();
 }
 window.onload = initialize;
+
+/* Rain effect */
+function waterRain() {
+    const container = document.getElementById('water-rain-container');
+    for (let i = 0; i < 100; i++) {
+        const drop = document.createElement('div');
+        drop.classList.add('rain-drop');
+        drop.classList.add('water-drop');
+        drop.style.left = Math.floor(Math.random() * 100) + '%';
+        drop.style.animationDelay = Math.floor(Math.random() * 10000) + 'ms';
+        container.appendChild(drop);
+    }
+}
+function binaryRain() {
+    const container = document.getElementById('binary-rain-container');
+    for (let i = 0; i < 100; i++) {
+        const drop = document.createElement('div');
+        drop.classList.add('rain-drop');
+        drop.classList.add('binary-drop');
+        drop.classList.add('light-mode');
+        drop.style.left = Math.floor(Math.random() * 100) + '%';
+        drop.style.animationDelay = Math.floor(Math.random() * 10000) + 'ms';
+        drop.innerHTML = ['0', '1'] [Math.floor(Math.random() * 2)];
+        container.appendChild(drop);
+    }
+}
+function snowRain() {
+    const container = document.getElementById('snow-rain-container');
+    for (let i = 0; i < 100; i++) {
+        const drop = document.createElement('div');
+        drop.classList.add('rain-drop');
+        drop.classList.add('snow-drop');
+        drop.style.left = Math.floor(Math.random() * 100) + '%';
+        drop.style.animationDelay = Math.floor(Math.random() * 10000) + 'ms';
+        container.appendChild(drop);
+    }
+}
+function stopAllRains() {
+    const rainContainer = document.getElementById('rain-container');
+    for (let i = 0; i < rainContainer.children.length; i++) {
+        rainContainer.children[i].innerHTML = '';
+    }
+}

@@ -81,7 +81,6 @@ function fadeInAnimation() {
 function initialize() {
     hideLoading()
     initializeThemeSwitch();
-    darkMode();
     fadeInAnimation();
     initializeRain();
     displayHobbies();

@@ -321,6 +321,8 @@ section.dark-mode:hover {
     display: flex;
     flex-direction: row;
     overflow-y: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact:hover {
     transform: scale(1.1);
@@ -329,6 +331,11 @@ section.dark-mode:hover {
     width: 100px;
     height: 100px;
     margin: 10px;
+}
+@media screen and (max-width: 350px){
+    #contact-list {
+        flex-direction: column;
+    }
 }
 .social svg {
     width: 30px;

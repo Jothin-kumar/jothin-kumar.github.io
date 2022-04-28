@@ -3,6 +3,7 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    scroll-behavior: smooth;
 }
 h1, h2, h3 {
     font-family: 'Noto Sans', sans-serif;

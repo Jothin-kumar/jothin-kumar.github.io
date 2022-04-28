@@ -175,10 +175,11 @@ section.light-mode:hover {
     border-radius: 2%;
 }
 .project.light-mode, .blog.light-mode {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 .project:hover, .blog:hover {
     transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .project a div img, .blog a div img {
     width: 300px;

@@ -18,7 +18,7 @@ jobs:
         run: |
           css-minify -f style.css
           rm style.css
-          cp "css-dist/style.css" "style.css"
+          cp "css-dist/style.min.css" "style.css"
           rm -r css-dist
       - name: Install uglify-js
         run: npm install uglify-js -g

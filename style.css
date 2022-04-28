@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 .dark-mode * {
     color: #cbedf4;
@@ -19,7 +20,6 @@ h1, h2, h3 {
 body {
     margin: 0;
     z-index: 2;
-    overflow-x: hidden;
 }
 body.dark-mode {
     background-color: #011226;
@@ -269,7 +269,6 @@ section.dark-mode:hover {
 .cdn-img {
     float: right;
     padding-left: 20px;
-    overflow-x: hidden;
 }
 .cdn-img.light-mode {
     border-left: rgba(0, 0, 0, 0.3) solid 3px;

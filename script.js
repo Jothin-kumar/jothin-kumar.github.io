@@ -82,7 +82,7 @@ function initialize() {
     hideLoading()
     initializeThemeSwitch();
     fadeInAnimation();
-    binaryRain();
+    initializeRain();
     displayHobbies();
 }
 window.onload = initialize;
@@ -123,9 +123,28 @@ function snowRain() {
         container.appendChild(drop);
     }
 }
-function stopAllRains() {
+function stopAllRain() {
     const rainContainer = document.getElementById('rain-container');
     for (let i = 0; i < rainContainer.children.length; i++) {
         rainContainer.children[i].innerHTML = '';
     }
+}
+function initializeRain() {
+    document.getElementById('switch-rain-div').style.display = 'block';
+    let currentRain = 'snow';
+    document.getElementById('switch-rain-div').addEventListener('click', function () {
+        stopAllRain();
+        if (currentRain === 'binary') {
+            waterRain();
+            currentRain = 'water';
+        }
+        else if (currentRain === 'water') {
+            snowRain();
+            currentRain = 'snow';
+        }
+        else if (currentRain === 'snow') {
+            binaryRain();
+            currentRain = 'binary';
+        }
+    })
 }

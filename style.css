@@ -320,6 +320,7 @@ section.dark-mode:hover {
     list-style: none;
     display: flex;
     flex-direction: row;
+    overflow-y: hidden;
 }
 .contact:hover {
     transform: scale(1.1);

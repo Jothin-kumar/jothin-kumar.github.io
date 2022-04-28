@@ -333,6 +333,7 @@ footer.dark-mode * {
     border-radius: 50%;
     padding: 5px;
     background-color: rgba(250, 250, 250, 0.7);
+    display: none;
 }
 #toggle-theme-button:hover {
     background-color: rgba(250, 250, 250, 0.9);

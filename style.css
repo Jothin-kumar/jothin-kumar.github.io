@@ -5,6 +5,14 @@
     font-weight: bold;
     scroll-behavior: smooth;
 }
+.dark-mode * {
+    color: #cbedf4;
+    fill: #cbedf4;
+}
+.light-mode * {
+    color: #1d1d1d;
+    fill: #1d1d1d;
+}
 h1, h2, h3 {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -14,7 +22,7 @@ body {
     overflow-x: hidden;
 }
 body.dark-mode {
-    background-color: #30303d;
+    background-color: #011226;
 }
 #div-for-animated-bg.light-mode {
     position: fixed;
@@ -54,7 +62,12 @@ body.dark-mode {
     background-color: rgba(250, 250, 250, 0.8);
 }
 #top-nav.dark-mode {
-    background-color: #25252f;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: white 0 0 5px;
+}
+#top-nav.dark-mode:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: white 0 0 10px;
 }
 #top-nav-brand {
     float: left;
@@ -68,8 +81,14 @@ body.dark-mode {
 #top-nav-brand.light-mode {
     color: saddlebrown;
 }
-#top-nav-brand:hover {
+#top-nav-brand.light-mode:hover {
     color: #6e974d;
+}
+#top-nav-brand.dark-mode {
+    color: white;
+}
+#top-nav-brand.dark-mode:hover {
+    color: #ff9308;
 }
 #top-nav-urls {
     float: right;
@@ -82,6 +101,12 @@ body.dark-mode {
 }
 .top-nav-link.light-mode:hover {
     color: red;
+}
+.top-nav-link.dark-mode {
+    color: #ff7e6c;
+}
+.top-nav-link.dark-mode:hover {
+    color: white;
 }
 @media screen and (max-width: 768px) {
     #top-nav-urls {
@@ -112,6 +137,12 @@ section.light-mode {
 section.light-mode:hover {
     background-color: rgba(250, 250, 250, 0.7);
 }
+section.dark-mode {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+section.dark-mode:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 /* About section */
 #about {
@@ -120,11 +151,17 @@ section.light-mode:hover {
 #about-left, #about-right {
     padding: 25px;
 }
-#about-left {
+#about-left.light-mode {
     border-right: #eedb4b solid 3px;
 }
-#hobbies-container {
+#hobbies-container.light-mode {
     color: orangered;
+}
+#about-left.dark-mode {
+    border-right: #a3ff03 solid 3px;
+}
+#hobbies-container.dark-mode {
+    color: orange;
 }
 #logo {
     width: 200px;
@@ -150,7 +187,7 @@ section.light-mode:hover {
     #about-left, #about-right {
         padding: 0;
     }
-    #about-left {
+    #about-left.light-mode, #about-left.dark-mode {
         border-right: none;
     }
     #about {
@@ -177,9 +214,17 @@ section.light-mode:hover {
 .project.light-mode, .blog.light-mode {
     background-color: rgba(0, 0, 0, 0.05);
 }
+.project.dark-mode, .blog.dark-mode {
+    background-color: rgba(250, 250, 250, 0.05);
+}
 .project:hover, .blog:hover {
     transform: scale(1.05);
+}
+.project.light-mode:hover, .blog.light-mode:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+.project.dark-mode:hover, .blog.dark-mode:hover {
+    background-color: rgba(250, 250, 250, 0.1);
 }
 .project a div img, .blog a div img {
     width: 300px;
@@ -194,20 +239,33 @@ section.light-mode:hover {
 }
 .cdn-img {
     float: right;
-    border-left: rgba(0, 0, 0, 0.3) solid 3px;
     padding-left: 20px;
     overflow-x: hidden;
 }
+.cdn-img.light-mode {
+    border-left: rgba(0, 0, 0, 0.3) solid 3px;
+}
+.cdn-img.dark-mode {
+    border-left: rgba(250, 250, 250, 0.3) solid 3px;
+}
 #all-projects, #all-blogs {
-    background-color: rgba(0, 0, 0, 0.1);
     width: fit-content;
     margin: auto;
     border-radius: 5px;
     padding: 5px;
-    color: black;
 }
-#all-projects:hover, #all-blogs:hover {
+#all-projects.light-mode, #all-blogs.light-mode {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#all-projects.dark-mode, #all-blogs.dark-mode {
+    background-color: rgba(250, 250, 250, 0.1);
+}
+#all-projects.light-mode:hover, #all-blogs.light-mode:hover {
     background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+#all-projects.dark-mode:hover, #all-blogs.dark-mode:hover {
+    background-color: rgba(250, 250, 250, 0.2);
     border-radius: 10px;
 }
 @media screen and (max-width: 1380px){
@@ -216,7 +274,7 @@ section.light-mode:hover {
         width: 100%;
         transform: none;
     }
-    .cdn-img {
+    .cdn-img.light-mode, .cdn-img.light-mode {
         float: none;
         border-left: none;
         padding-left: 0;
@@ -229,7 +287,6 @@ section.light-mode:hover {
     margin-top: 5em;
     margin-bottom: 5em;
     text-align: center;
-    color: rgba(0, 0, 0, 0.7);
 }
 #contact-list {
     list-style: none;
@@ -257,8 +314,11 @@ footer {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
-footer * {
+footer.light-mode * {
     color: #ecdfbf;
+}
+footer.dark-mode * {
+    color: white;
 }
 
 /* Additional CSS */
@@ -272,7 +332,8 @@ footer * {
 #toggle-theme-button {
     border-radius: 50%;
     padding: 5px;
-}
-#toggle-theme-button.light-mode {
     background-color: rgba(250, 250, 250, 0.7);
+}
+#toggle-theme-button:hover {
+    background-color: rgba(250, 250, 250, 0.9);
 }

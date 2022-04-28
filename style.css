@@ -154,12 +154,41 @@ section.dark-mode:hover {
 #about-left.light-mode {
     border-right: #eedb4b solid 3px;
 }
+#hobbies-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 #hobbies-container.light-mode {
     color: orangered;
+    animation: hobbies-text-cursor-light-mode 1s infinite;
 }
 #about-left.dark-mode {
     border-right: #a3ff03 solid 3px;
 }
+@keyframes hobbies-text-cursor-light-mode {
+    0% {
+        border-right: orangered solid 1px;
+    }
+    50% {
+        border-right: none;
+    }
+    100% {
+        border-right: orangered solid 1px;
+    }
+}
+@keyframes hobbies-text-cursor-dark-mode {
+    0% {
+        border-right: #a3ff03;
+    }
+    50% {
+        border-right: none;
+    }
+    100% {
+        border-right: #a3ff03;
+    }
+}
+
 #hobbies-container.dark-mode {
     color: orange;
 }

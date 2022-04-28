@@ -179,18 +179,19 @@ section.dark-mode:hover {
 }
 @keyframes hobbies-text-cursor-dark-mode {
     0% {
-        border-right: #a3ff03;
+        border-right: #a3ff03 1px solid;
     }
     50% {
         border-right: none;
     }
     100% {
-        border-right: #a3ff03;
+        border-right: #a3ff03 1px solid;
     }
 }
 
 #hobbies-container.dark-mode {
     color: orange;
+    animation: hobbies-text-cursor-dark-mode 1s infinite;
 }
 #logo {
     width: 200px;

@@ -303,7 +303,7 @@ section.dark-mode:hover {
         width: 100%;
         transform: none;
     }
-    .cdn-img.light-mode, .cdn-img.light-mode {
+    .cdn-img.light-mode, .cdn-img.dark-mode {
         float: none;
         border-left: none;
         padding-left: 0;

@@ -27,7 +27,7 @@ function initializeThemeSwitch() {
     const img = document.getElementById('toggle-theme-button');
     img.style.display = 'inline-block';
     img.onclick = toggleTheme;
-    img.src = lightModeLogo;
+    img.src = darkModeLogo;
 }
 /*Hobbies display JS*/
 function sleep(ms) {

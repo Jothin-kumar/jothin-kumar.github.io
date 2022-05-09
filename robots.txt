@@ -1,31 +1,6 @@
-User-agent: Googlebot
-crawl-delay: 1
-Allow: /
-Disallow: /icons8-credits.html
-Disallow: /made-by/*
-Disallow: *.js
-Disallow: *.css
-
-User-agent: Googlebot-Image
-crawl-delay: 1
-Allow: /
-Disallow: /icons8-credits.html
-Disallow: /made-by/*
-Disallow: *.js
-Disallow: *.css
-
-User-agent: bingbot
+User-agent: *
 crawl-delay: 3
 Allow: /
-Disallow: /icons8-credits.html
-Disallow: /made-by/*
-Disallow: *.js
-Disallow: *.css
-
-User-agent: *
-crawl-delay: 10
-Allow: /
-Disallow: /icons8-credits.html
 Disallow: /made-by/*
 Disallow: *.js
 Disallow: *.css

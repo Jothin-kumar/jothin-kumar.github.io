@@ -8,27 +8,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v3
+        with:
+          python-version: "3.x"
       - name: Install html-minifier
-        run: npm install html-minifier -g
+        run: npm install html-minifier@4.0.0
       - name: Minify HTML
-        run: html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --minify-js true --minify-css true --input-dir . --output-dir . --file-ext html
+        run: html-minifier --collapse-whitespace --minify-js true --process-scripts "application/ld+json" --minify-css true --input-dir . --output-dir . --file-ext html
       - name: Install css-minify
-        run: npm install css-minify -g
+        run: npm install css-minify@2.0.0
       - name: Minify CSS
         run: |
-          css-minify -f style.css
-          rm style.css
-          cp "css-dist/style.min.css" "style.css"
-          rm -r css-dist
+          css-minify -d . -o .
+          python py/rename-stylesheet.py
       - name: Install uglify-js
-        run: npm install uglify-js -g
+        run: npm install uglify-js@3.15.4
       - name: Minify JS
-        run: uglifyjs script.js --compress --output script.js
+        run: |
+          uglifyjs script.js --compress --output script.min.js
+          python py/rename-js-script.py
       - name: git config
         run: |
           git config --global user.name "Minify bot"
           git config --global user.email "<>"
       - name: Commit changes
+        continue-on-error: true
         run: |
           git add --all
           git commit -m "Minify"

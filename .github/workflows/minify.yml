@@ -12,17 +12,17 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install html-minifier
-        run: npm install html-minifier@4.0.0
+        run: npm install html-minifier@4.0.0 -g
       - name: Minify HTML
         run: html-minifier --collapse-whitespace --minify-js true --process-scripts "application/ld+json" --minify-css true --input-dir . --output-dir . --file-ext html
       - name: Install css-minify
-        run: npm install css-minify@2.0.0
+        run: npm install css-minify@2.0.0 -g
       - name: Minify CSS
         run: |
           css-minify -d . -o .
           python py/rename-stylesheet.py
       - name: Install uglify-js
-        run: npm install uglify-js@3.15.4
+        run: npm install uglify-js@3.15.4 -g
       - name: Minify JS
         run: |
           uglifyjs script.js --compress --output script.min.js

@@ -34,15 +34,15 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function displayHobbies() {
-    const hobbiesElements = document.getElementsByClassName('hobby');
+    const hobbies = ["an open source developer.", "a blogger.", "a student.", "a tech enthusiast."];
     const hobbiesContainer = document.getElementById('hobbies-container');
     while (true) {
-        for (let i = 0; i < hobbiesElements.length; i++) {
-            let hobby = 'I am a ';
-            for (const chr of hobbiesElements[i].innerText + '.') {
-                await sleep(50);
+        for (let i = 0; i < hobbies.length; i++) {
+            let hobby = 'I am ';
+            for (let j = 0; j < hobbies[i].length; j++) {
+                hobby += hobbies[i][j];
                 hobbiesContainer.innerHTML = hobby;
-                hobby += chr;
+                await sleep(100);
             }
             await sleep(2000);
         }

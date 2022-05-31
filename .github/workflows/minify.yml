@@ -11,22 +11,12 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: "3.x"
+      - name: Replace style tag with style.css contents and script tag with script.js contents.
+        run: python py/replace.py
       - name: Install html-minifier
         run: npm install html-minifier@4.0.0 -g
       - name: Minify HTML
         run: html-minifier --collapse-whitespace --minify-js true --process-scripts "application/ld+json" --minify-css true --input-dir . --output-dir . --file-ext html
-      - name: Install css-minify
-        run: npm install css-minify@2.0.0 -g
-      - name: Minify CSS
-        run: |
-          css-minify -d . -o .
-          python py/rename-stylesheet.py
-      - name: Install uglify-js
-        run: npm install uglify-js@3.15.4 -g
-      - name: Minify JS
-        run: |
-          uglifyjs script.js --compress --output script.min.js
-          python py/rename-js-script.py
       - name: git config
         run: |
           git config --global user.name "Minify bot"

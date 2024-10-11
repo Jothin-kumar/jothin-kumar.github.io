@@ -56,6 +56,19 @@
         }
     </script>
 </head>
+<div id="archive-notice" style="background-color: black; z-index: 3; color: white; position: fixed; top: 50%; transform: translateY(-50%); width: 100vw; padding: 25px 0; text-align: center; user-select: none; font-weight: lighter; font-family: 'Courier New', Courier, monospace; opacity: 0; animation: archive-notice-entry 2s 3s forwards;">
+    <img src="https://jothin.tech/img/favicon.webp" alt="Jothin kumar" style="width: 75px; height: 75px; border-radius: 50%; border: olive 2px solid;">
+    <br><br>
+    This is an archive of my old website. Visit my new website <a href="https://jothin.tech" style="color: olive; text-decoration: underline;">here</a>
+    <br><br>
+    <a style="font-size: small; color: rgb(93, 79, 79); text-decoration: underline; cursor: pointer;" onclick="document.getElementById('archive-notice').remove()">Click here to ignore this message</a>
+    <style>
+        @keyframes archive-notice-entry {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+    </style>
+</div>
 <div id="div-for-animated-bg" class="light-mode"></div>
 <div id="rain-container">
     <div id="water-rain-container"></div>
